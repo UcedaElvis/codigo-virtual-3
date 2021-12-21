@@ -1,1 +1,11 @@
 https://gsnedders.html5.org/outliner/    para ver la página tiene buena estructura
+Todos los elementos estructurales, son elementos bloqueantes - block (utilizan el 100% de ancho de la página)
+
+Etiquetas de contenido: h1..h3, <p>, 
+
+<p>, <h1>..<h6>:elementos bloqueantes - block (utilizan el 100% de ancho de la página)
+<strong> elemento de linea
+
+https://schema.org/ : Da la posibilidad de indexar correctamente, página para que obedesca a muchos tipos de consulta
+
+
