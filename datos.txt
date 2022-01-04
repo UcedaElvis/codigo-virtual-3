@@ -8,4 +8,12 @@ Etiquetas de contenido: h1..h3, <p>,
 
 https://schema.org/ : Da la posibilidad de indexar correctamente, página para que obedesca a muchos tipos de consulta
 
+GOOGLE TRENDS: ES UN MOTOR, PARA SABER QUÉ BUSCA MÁS EL PÚBLICO
+VER CURSO DE CEO
 
+TECLA CTRL + } // Para hacer comentarios en VS Code
+
+EMMENT: p*2: generar 2 párrafos 
+	nav>h1*3 {Hola}, genera 3 h1 hijos con el texto: Hola. todos los dentro de la etiqueta <nav>
+
+min: 1:50 
