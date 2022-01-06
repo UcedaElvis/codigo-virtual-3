@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tablas</title>
+  </head>
+  <body>
+    <header>
+      <h1>Tablas</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Tablas Simples</h2>
+        <table border="2">
+          <thead>
+            <tr>
+              <!-- Las columnas en la primera fila o la fila de la cabecera, son etiquetas TH -->
+              <th>#</th>
+              <th>Curso</th>
+              <th>Duración</th>
+              <th>Categoría</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Programación con Python</td>
+              <td>300 horas</td>
+              <td>Backend</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Adobe Illustrator</td>
+              <td>30 horas</td>
+              <td>UX/UI</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>-</td>
+              <td>
+                <ul>
+                  <li>Total1</li>
+                  <li>Total2</li>
+                </ul>
+              </td>
+              <td>330 horas</td>
+              <td>-</td>
+            </tr>
+          </tfoot>
+        </table>
+        <hr />
+        <table border="2">
+          <thead>
+            <tr>
+              <th>ITEM</th>
+              <th>CANTIDAD</th>
+              <th>DESCRIPCIÓN</th>
+              <th>P. UNITARIO</th>
+              <th>P. TOTAL</th>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>10</td>
+                  <td>Mouse</td>
+                  <td>30.00</td>
+                  <td>300.00</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>5</td>
+                  <td>Cable HDMI</td>
+                  <td>20.00</td>
+                  <td>100.00</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>1</td>
+                  <td>USB 32 GB</td>
+                  <td>70.00</td>
+                  <td>70.00</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td>-</td>
+                  <td>16</td>
+                  <td>TOTAL</td>
+                  <td>-</td>
+                  <td>470.00</td>
+                </tr>
+              </tfoot>
+            </tr>
+          </thead>
+        </table>
+      </section>
+      <hr />
+      <section>
+        <h2>Tablas con celdas combinadas</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Cabecera 1</th>
+              <th>Cabecera 2</th>
+              <th>Cabecera 3</th>
+              <th>Cabecera 4</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="2">Contenido 1</td>
+              <td colspan="2">Contenido 2</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">Total</td>
+              <td>1000</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+      <hr />
+      <section>
+        <h2>Tablas con filas combinadas</h2>
+        <table border="1">
+          <tr>
+            <td rowspan="3">fila1</td>
+            <td>fila1</td>
+            <td>fila1</td>
+          </tr>
+          <tr>
+            <td>fila2</td>
+            <td>fila2</td>
+          </tr>
+          <tr>
+            <td>fila3</td>
+            <td>fila3</td>
+          </tr>
+        </table>
+        <hr />
+        <table border="1" hidden="hidden">
+          <tr>
+            <td rowspan="3">fila1</td>
+            <td>fila1</td>
+            <td rowspan="3">fila1</td>
+          </tr>
+          <tr>
+            <td>fila2</td>
+          </tr>
+          <tr>
+            <td>fila3</td>
+          </tr>
+        </table>
+      </section>
+      <hr />
+      <section>
+        <h2>Tabla con celdas y filas combinadas</h2>
+        <table border="1">
+          <tr>
+            <td colspan="3">alfa</td>
+            <td>bravo</td>
+            <td rowspan="2">charlie</td>
+          </tr>
+          <tr>
+            <td>delta</td>
+            <td>echo</td>
+            <td>foxtrot</td>
+            <td>golf</td>
+          </tr>
+          <tr>
+            <td>hotel</td>
+            <td rowspan="2" colspan="3">india</td>
+            <td>juliet</td>
+          </tr>
+          <tr>
+            <td>kilo</td>
+            <td>lima</td>
+          </tr>
+          <tr>
+            <td>mike</td>
+            <td>november</td>
+            <td>oscar</td>
+            <td>papa</td>
+            <td>quebec</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
