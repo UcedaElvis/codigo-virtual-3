@@ -16,4 +16,15 @@ TECLA CTRL + } // Para hacer comentarios en VS Code
 EMMENT: p*2: generar 2 párrafos 
 	nav>h1*3 {Hola}, genera 3 h1 hijos con el texto: Hola. todos los dentro de la etiqueta <nav>
 
-min: 1:50 
+id: sirve para darle un identificador único a una etiqueta, único en todo el DOM
+<code> Etiqueta en linea
+
+ACCESIBILIDAD WEB: BUSCAR EN GOOGLE: ARIA HTML, define como realizar contenido Web y aplicaciones Web, más accesibles a personas con discapacidad.
+ARIA: SIRVE PARA COLOCAR ATRIBUTOS ADICIONALES
+
+VER LA PAGINA: https://web.dev/lazy-loading-images/ LAZY LOAD: EXPLICA DE COMO NO CARGAR TODAS LAS IMÁGENES DE MANERA INNECESARIA QUE TIENE LA PÁGINA,SINO CONFORME VA VIENDO EL USUARIO.
+
+
+
+
+
