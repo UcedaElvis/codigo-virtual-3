@@ -6,7 +6,7 @@
   </head>
   <body>
     <header>
-      <h1>Formularios2</h1>
+      <h1>Formularios3</h1>
     </header>
     <main>
       <section>
@@ -17,12 +17,12 @@
                 <td><label for="nombrecurso">Nombre del Curso:</label></td>
                 <td><input type="text"
                            id="nombrecurso"
-                           placeholder="Ejm: Vue JS desde cero"/></td>
+                           placeholder="Ejm: Vue JS desde cero" required maxlength="30" minlength="5"/></td>
               </tr>
               <tr>
                 <td><label for="preciocurso">Precio del Curso:</label></td>
                 <td><input type="number" id="preciocurso"
-                           placeholder="Precio en soles"/></td>
+                           placeholder="Precio en soles" min="0" max="300"/></td>
               </tr>
               <tr>
                 <td><label for="fechacurso">Fecha de Inicio:</label</td>
@@ -38,7 +38,10 @@
               <tr>
                   <td><label for="passwordcurso">Contraseña del Curso:</label></td>
                   <td><input type="password" id="passwordcurso"
-                            placeholder="6 caracteres como mínimo"></td>
+                            placeholder="6 caracteres como mínimo"
+                            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                            title="Mínimo 8 caracteres, 1 mayúscula, 1 minúscula y 1 nú,ero"
+                            required></td>
               </tr>
               <tr>
                   <td><label>Elija el turno:</label></td>
